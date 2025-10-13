@@ -1,0 +1,24 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+.crash.log
+.terraform/
+.plan
+
+# Zola build output (we **do** want it tracked, but ignore accidental local builds)
+public/
+
+# OS / editor artefacts
+.DS_Store
+.idea/
+.vscode/
+*.swp
+.direnv
+.cache
+.env
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+.sops.yaml
+
+

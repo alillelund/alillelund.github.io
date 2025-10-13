@@ -1,0 +1,37 @@
+repos:
+  # - repo: local
+  #   hooks:
+  #     # ------------------------------------------------------------
+  #     # Build the static site with Zola
+  #     # ------------------------------------------------------------
+  #     - id: zola-build
+  #       name: "Zola – generate static files"
+  #       entry: bash -c 'zola build --output-dir public'
+  #       language: system               # uses whatever is on PATH
+  #       stages: [commit]               # run only on commit (not push)
+  #       always_run: false              # always run even if no Zola files changed
+
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.24.3
+    hooks:
+      - id: gitleaks
+      # ------------------------------------------------------------
+      # Optional: check that the generated HTML validates
+      #    (requires `html5validator` pip package – install locally)
+      # ------------------------------------------------------------
+      # - id: html-validate
+      #   name: "HTML5 validator"
+      #   entry: html5validator --root public
+      #   language: system
+      #   stages: [commit]
+      #   require_serial: true
+      #   additional_dependencies: []   # none needed if you have it globally
+
+# ------------------------------------------------------------------
+# After cloning the repo run once:
+#
+#   pre-commit install
+#
+# This installs a git hook that will execute the above steps before every commit.
+# ------------------------------------------------------------------
+
