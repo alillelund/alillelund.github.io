@@ -1,6 +1,13 @@
 # The URL the site will be built for
 base_url = "https://alillelund.github.io"
 
+# The site title and description; used in feeds by default.
+title = "alillelund"
+description = "My personal blog - and experimental repo on all git related interest projects"
+
+# The default language; used in feeds.
+default_language = "en"
+
 # Theme
 theme = "duckquill"
 
