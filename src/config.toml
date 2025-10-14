@@ -9,7 +9,7 @@ description = "My personal blog - and experimental repo on all git related inter
 default_language = "en"
 
 # Theme
-# theme = ""
+theme = "duckquill"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
