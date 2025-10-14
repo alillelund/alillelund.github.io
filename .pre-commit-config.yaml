@@ -34,7 +34,7 @@ repos:
     hooks:
       - id: zola-check
         name: zola check
-        entry: zola check
+        entry: bash -c 'cd src && zola check'
         language: system
         pass_filenames: false
         description: 'Runs zola check command on the repository'
