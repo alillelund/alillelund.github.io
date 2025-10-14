@@ -11,6 +11,5 @@ jobs:
       - name: build_and_deploy
         uses: shalzz/zola-deploy-action@master
         env:
-          BUILD_DIR: src
           PAGES_BRANCH: gh-pages
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
