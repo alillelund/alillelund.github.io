@@ -37,7 +37,7 @@ accent_color = "#ff7800"
 # Ditto but for the dark theme.
 # If not set regular variant will be used.
 accent_color_dark = "#ffa348"
-card = true
+card = "/assets/meta.png"
 
 [extra.nav]
 # Whether to automatically hide nav when not hovered or focused
