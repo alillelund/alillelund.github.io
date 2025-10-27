@@ -51,4 +51,5 @@ links = [
   # {url = "https://codeberg.org/daudix/duckquill", name = "Repo"},
   #  {url = "$BASE_URL/demo", name = "Demo"},
   { url = "@/praktisk-info/_index.md", name = "Praktisk Info" },
+  { url = "@/opskrivning/_index.md", name = "Opskrivning" },
 ]
