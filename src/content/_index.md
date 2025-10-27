@@ -1,4 +1,7 @@
 +++
+title = "Honningkrukken"
+[extra]
+card = "card.png"
 +++
 
 # Velkommen til Honningkrukken - Privat økologisk pasningordning
