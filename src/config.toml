@@ -2,11 +2,11 @@
 base_url = "https://alillelund.github.io"
 
 # The site title and description; used in feeds by default.
-title = "alillelund"
-description = "My personal blog - and experimental repo on all git related interest projects"
+title = "Honningkrukken"
+description = "Et økologisk privat dagpleje tilbud i Nivå."
 
 # The default language; used in feeds.
-default_language = "en"
+default_language = "da"
 
 # Theme
 theme = "duckquill"
