@@ -18,13 +18,23 @@ compile_sass = true
 build_search_index = false
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = false
+highlight_code = true
+highlight_theme = "css"
+highlight_themes_css = [
+  { theme = "solarized-dark", filename = "syntax-theme-dark.css" },
+  { theme = "solarized-light", filename = "syntax-theme-light.css" },
+]
 
 [extra]
 # Put all your custom variables here
 default_theme = "light"
+#
+# Sets theme and browser theme color.
+# See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color
+accent_color = "#ff7800"
+# Ditto but for the dark theme.
+# If not set regular variant will be used.
+accent_color_dark = "#ffa348"
 
 [extra.nav]
 # Whether to automatically hide nav when not hovered or focused
