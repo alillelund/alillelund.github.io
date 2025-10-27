@@ -24,3 +24,21 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+default_theme = "light"
+
+[extra.nav]
+# Whether to automatically hide nav when not hovered or focused
+# auto_hide = true
+# Whether to show the manual theme switcher in the nav
+show_theme_switcher = true
+# Whether to show the link to the source repository in the nav
+show_repo = true
+# Links used in the nav.
+# For local files use same link format as in Markdown,
+# i.e. "@/blog/_index.md".
+# See https://www.getzola.org/documentation/content/linking/#internal-links
+links = [
+  # {url = "https://codeberg.org/daudix/duckquill", name = "Repo"},
+  #  {url = "$BASE_URL/demo", name = "Demo"},
+  { url = "@/praktisk-info/_index.md", name = "Praktisk Info" },
+]
